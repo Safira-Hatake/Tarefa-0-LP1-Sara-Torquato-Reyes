@@ -9,6 +9,7 @@ int main() {
     if(N <= 1) {
         primo = 0;
     } 
+        
     else {
         for(i = 2; i * i <= N; i++) {
             if(N % i == 0) {
@@ -20,9 +21,12 @@ int main() {
 
     if(primo) {
         printf("Sim, primo\n");
-    } else {
+    } 
+    
+    else {
         printf("Nao, nao e primo\n");
     }
 
     return 0;
 }
+
